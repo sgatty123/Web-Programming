@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>Book Worm</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+a:hover {
+    background-color: yellow;
+}
+</style>
+
+</HEAD>
+<BODY>
+<IMG class="displayed" SRC="bookworm.jpg" style="width:128px;height:128px;" alt="bookworm"> 
+
+<p>Although the above image is an animated version of mine, here is my muggle form</p>
+
+<IMG class="displayed" SRC="me.jpg" style="width:128px;height:150;" alt="photo of myself"> 
+<h1><span style="color:black"><b>Swetha Gatty</b></span></h1>
+<p>After Three years of monotonous corporate life, I decided it was time to go back to Hogwarts
+<BR>So here I am, pursuing my Masters in <span style="color:red"><b>Computer Science</b></span> at <span style="color:red"><b>Georgia State</b></span> University
+<BR>Our department offers many different courses to make ourselves a better computer wizard
+<BR>Have a quick glimpse at our wonderful  <a class="hover" href="http://cs.gsu.edu/" target="_blank"><span style="color:red"><b> <u>Computer Science Department</u></b></span></a> for more info
+<HR>
+
+<H2><u>Assignments/Projects</u></H2>
+
+<table>
+	<tr class="odd">
+		<td><a href="http://codd.cs.gsu.edu/~sgatty1/" target="_blank">Assignment1 </a></td>
+	</tr>
+	<tr class="even">
+		<td><a href="" target="_blank">Assignment2</a></td>
+	</tr>
+	<tr class="white">
+		<td><a href="" target="_blank">Assignment3</a></td>
+	</tr>
+	<tr class="blue">
+		<td><a href="" target="_blank">Assignment4</a></td>
+	</tr>
+	<tr class="green">
+		<td><a href="" target="_blank">Project</a></td>
+	</tr>
+</table>
+<HR>
+<h2><u>Hobbies</u></h2>
+
+<ul class="a">
+  <li><span style="color:brown"><b>Reading Novels </b></span>   Check Out
+  <a href="https://www.readanybook.com" target="_blank"><span style="color:blue"><b><u>Read Any Book</u></b></span></a>
+  </li>
+  <li><span style="color:brown"><b>Classical Dance-Bharatnatyam</b></span>  Know More about
+   <a href="https://en.wikipedia.org/wiki/Bharatanatyam" target="_blank"><span style="color:blue"><b><u>History of Bharatnatyam</u></b></span></a>
+   </li>
+  <li><span style="color:brown"><b>Drawing</b></span></li>
+  
+</ul>
+
+<h2><u>Favorite Novels</u></h2>
+
+<ul class="a">
+  <li><span style="color:brown"><b>A Song of Fire and Ice</b></span> by Georde R R Martin</li>
+  <li><span style="color:brown"><b>Harry Poter Novels</b></span>by J K Rowling</li>
+  <li><span style="color:brown"><b>Inferno</b></span> by Dan Brown</li>
+  <li><span style="color:brown"><b>Twilight Saga </b></span> by Stephnie Meyer</li>
+  <li><span style="color:brown"><b>Vampire Academy</b></span> by Richelle Mead </li>
+  
+</ul>
+<HR>
+<h2><u>Education </u></h2>
+
+<ul class="b">
+  
+  <li>High School
+    <ul>
+    <li><span style="color:deeppink"><b>St,Xavier's High School</b></span></li>
+    </ul>
+  </li>
+  
+  <li>Pre-University College
+    <ul>
+    <li><span style="color:deeppink"><b>St.Agnes Pre-University College</b></span></li>
+    </ul>
+  </li>
+  
+  <li>Under Graduation
+    <ul>
+    <li><span style="color:deeppink"><b>Nitte Mahalinga Adyanthaya Institute of Technology</b></span></li>
+    </ul>
+  </li>
+  
+  <li>Graduation
+    <ul>
+    <li><span style="color:red"><b>Georgia State</b> </span>University</li>
+    </ul>
+  </li>
+  
+</ul>
+
+
+<h2><u>Work Experience</u></h2>
+
+<ul class="b">
+<li class="num"><span style="color:darkviolet"><b>Infosys Technologies, Mangalore</b></span>
+    <ul>
+    <li>Senior Software Engineer</li>
+    </ul>
+  </li>
+  
+
+<li class="num"><span style="color:darkviolet"><b>TESCO ,Bangalore</b></span>
+    <ul>
+    <li>Software Engineer</li>
+    </ul>
+  </li>
+  
+</ul>
+
+<h2><b><u>My Favorite Quote</u></b></h2>
+<div style="background-color:goldenrod;color:green;padding:20px;">
+  <p><h3>Learn from YESTERDAY. Live for TODAY. Hope for TOMORROW </h3>
+</div>
+
+<h3>-->Link to download the external stylesheet of this file
+<a href="http://codd.cs.gsu.edu/~sgatty1/styles.css" download="filename">External CSS</a></h3>
+<link rel="stylesheet" href="styles.css">
+<HR>
+<h3><b><u>Other Websites of interest</u></b></h3>
+<a href="https://www.scribd.com" target="_blank"><span style="color:blue"><b> <u>  Scribd</u></b></span></a>
+<BR><a href="https://www.wattpad.com" target="_blank"><span style="color:blue"><b> <u>Wattapad</u></b></span></a>
+<BR><a href="https://www.reddit.com" target="_blank"><span style="color:blue"><b> <u>Reddit</u></b></span></a>
+
+</BODY>
+</HTML>
