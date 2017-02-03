@@ -1,0 +1,491 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.board {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background:skyblue url(cloud.jpg);
+    cursor: url('cursor.png') 35 0,pointer;
+    text-align: center;
+    position: relative;
+}
+
+#score {
+    float: left;
+    color: black;
+}
+
+.board #status {
+    color: black;
+    position: absolute;
+    bottom: 25px;
+    left: 5px;
+    font-size: 20px;
+}
+
+.board #status span.in {
+    display: none;
+}
+
+.board #status span.out {
+    display: inline;
+}
+
+.board:hover #status span.in {
+    display: inline;
+}
+
+.board:hover #status span.out {
+    display: none;
+}
+
+.angel {
+    height: 48px;
+    width: 48px;
+    margin-right: 5px;
+    margin-top: 15px;
+    position: absolute;
+    top: -50%;
+    left: 0;
+    background: url(angel.png);
+}
+
+.demon {
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    top: -10%;
+    left: 0;
+    background-image: url(demon.png);
+    -moz-appearance: button;
+    -webkit-appearance: button;
+    appearance: button;
+}
+
+.demon:checked {
+    background-image: url('scream.png') !important;
+    width: 24px;
+    height: 24px;
+    position: static;
+    -webkit-animation-name: none;
+    animation-name: none;
+    float: left;
+}
+
+.board .angel:hover {
+    border-radius: 0;
+    margin: 0;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: brown;
+    overflow: visible;
+    cursor: not-allowed;
+    -webkit-animation: animation1 0s 0s linear !important;
+    animation: animation1 0s 0s linear !important;
+    -webkit-animation: animation2 0s 0s linear !important;
+    animation: animation2 0s 0s linear !important;
+    -webkit-animation: animation3 0s 0s linear !important;
+    animation: animation3 0s 0s linear !important;
+    -webkit-animation: animation4 0s 0s linear !important;
+    animation: animation4 0s 0s linear !important;
+    -webkit-animation: animation5 0s 0s linear !important;
+    animation: animation5 0s 0s linear !important;
+    -webkit-animation: animation6 0s 0s linear !important;
+    animation: animation6 0s 0s linear !important;
+    -webkit-animation: animation7 0s 0s linear !important;
+    animation: animation7 0s 0s linear !important;
+    -webkit-animation: animation8 0s 0s linear !important;
+    animation: animation8 0s 0s linear !important;
+    -webkit-animation: animation9 0s 0s linear !important;
+    animation: animation9 0s 0s linear !important;
+    -webkit-animation: animation10 0s 0s linear !important;
+    animation: animation10 0s 0s linear !important;
+}
+
+.board .angel:hover:before {
+    background: brown;
+    content: "You hit a ANGEL!";
+    font-size: 25px;
+    position: relative;
+    left:10px;
+    top: 300px;
+    color: yellow;
+   
+}
+
+.board .angel:hover:after {
+    display: none;
+}
+
+.board .demon:hover {
+    cursor: crosshair;       /*cursor shape*/
+    /*zoom:1;*/
+   
+}
+
+.board:hover #demon1 {
+    -webkit-animation: animation1 5s 3s 2 linear;  /* duration, delay, direction*/
+    animation: animation1 5s 3s linear;
+}
+
+.board:hover #demon2 {
+    -webkit-animation: animation2 6s 4s linear;
+    animation: animation2 6s 4s linear;
+}
+
+.board:hover #demon3 {
+    -webkit-animation: animation3 6s 5s linear;
+    animation: animation3 6s 5s linear;
+}
+
+.board:hover #demon4 {
+    -webkit-animation: animation4 7s 1s linear;
+    animation: animation4 7s 1s linear;
+}
+
+.board:hover #demon5 {
+    -webkit-animation: animation5 7s 7s linear;
+    animation: animation5 7s 7s linear;
+}
+
+.board:hover #demon6 {
+    -webkit-animation: animation6 5s 1s linear;
+    animation: animation6 5s 1s linear;
+}
+
+.board:hover #demon7 {
+    -webkit-animation: animation7 5s 6s  2 linear;
+    animation: animation7 5s 6s linear;
+}
+
+.board:hover #angel1 {
+    -webkit-animation: animation1 5s 1s 2 linear;
+    animation: animation1 5s 1s 2 linear;
+}
+
+.board:hover #angel2 {
+    -webkit-animation: animation2 6s 0s 2 linear;
+    animation: animation2 6s 0s linear;
+}
+
+.board:hover #angel3 {
+    -webkit-animation: animation3 4s 3s 2 linear;
+    animation: animation3 4s 3s linear;
+}
+
+.board:hover #angel4 {
+    -webkit-animation: animation4 6s 1s 2 linear;
+    animation: animation4 6s 1s linear;
+}
+
+.board:hover #angel5 {
+    -webkit-animation: animation5 4s 5s 2 linear;
+    animation: animation5 4s 5s linear;
+}
+
+.board:hover #angel6 {
+    -webkit-animation: animation6 4s 1s 3 linear;
+    animation: animation6 4s 1s 3 linear;
+}
+.board:hover #angel7 {
+    -webkit-animation: animation7 6s 5s linear;
+    animation: animation7 6s 5s linear;
+}
+.board:hover #angel8 {
+    -webkit-animation: animation5 8s 8s linear;
+    animation: animation5 8s 8s linear;
+}
+.board:hover #angel9 {
+    -webkit-animation: animation3 4s 7s linear;
+    animation: animation3 4s 7s linear;
+}
+.board:hover #angel10 {
+    -webkit-animation: animation2 4s 9s 2 linear;
+    animation: animation2 4s 9s 2 linear;
+}
+.board:hover #angel11 {
+    -webkit-animation: animation1 9s 4s linear;
+    animation: animation1 9s 4s linear;
+}
+.board:hover #angel12 {
+    -webkit-animation: animation6 6s 6s linear;
+    animation: animation6 6s 6s linear;
+}
+
+.board:hover #angel13 {
+    -webkit-animation: animation7 9s 0s linear;
+    animation: animation7 9s 0s linear;
+}
+.board:hover #angel14 {
+    -webkit-animation: animation2 8s 10s linear;
+    animation: animation2 8s 10s linear;
+}
+.board:hover #angel15 {
+    -webkit-animation: animation1 6s 9s linear;
+    animation: animation1 6s 9s linear;
+}
+
+
+@-webkit-keyframes animation1 {
+    0% {
+        left: 40px;
+        top: -10%;
+    }
+
+    100% {
+        left: 40px;
+        top: 100%;
+    }
+}
+
+@-webkit-keyframes animation2 {
+    0% {
+        left: 150px;
+        top: -10%;
+    }
+
+    100% {
+        left: 100px;
+        top: 100%;
+    }
+}
+
+@-webkit-keyframes animation3 {
+    0% {
+        left: 350px;
+        top: -10%;
+    }
+
+    100% {
+        left: 500px;
+        top: 100%;
+    }
+}
+
+
+@-webkit-keyframes animation4 {
+    0% {
+        left: 250px;
+        top: -10%;
+    }
+
+    100% {
+        left: 250px;
+        top: 100%;
+    }
+}
+
+
+@-webkit-keyframes animation5 {
+    0% {
+        left: 400px;
+        top: -10%;
+    }
+
+    100% {
+        left: 400px;
+        top: 100%;
+    }
+}
+
+@-webkit-keyframes animation6 {
+    0% {
+        left: 300px;
+        top: -10%;
+    }
+
+    100% {
+        left: 320px;
+        top: 100%;
+    }
+}
+
+@-webkit-keyframes animation7 {
+    0% {
+        left: 200px;
+        top: -10%;
+    }
+
+    100% {
+        left: 200px;
+        top: 100%;
+    }
+}
+
+@keyframes animation1 {
+    0% {
+        left: 40px;
+        top: -10%;
+    }
+
+    100% {
+        left: 40px;
+        top: 100%;
+    }
+}
+
+@keyframes animation2 {
+    0% {
+        left: 150px;
+        top: -10%;
+    }
+
+    100% {
+        left: 100px;
+        top: 100%;
+    }
+}
+
+@keyframes animation3 {
+    0% {
+        left: 350px;
+        top: -10%;
+    }
+
+    100% {
+        left: 500px;
+        top: 100%;
+    }
+}
+
+
+@keyframes animation4 {
+    0% {
+        left: 250px;
+        top: -10%;
+    }
+
+    100% {
+        left: 250px;
+        top: 100%;
+    }
+}
+
+
+@keyframes animation5 {
+    0% {
+        left: 400px;
+        top: -10%;
+    }
+
+    100% {
+        left: 400px;
+        top: 100%;
+    }
+}
+
+@keyframes animation6 {
+    0% {
+        left: 300px;
+        top: -10%;
+    }
+
+    100% {
+        left: 320px;
+        top: 100%;
+    }
+}
+
+@keyframes animation7 {
+    0% {
+        left: 200px;
+        top: -10%;
+    }
+
+    100% {
+        left: 200px;
+        top: 100%;
+    }
+}
+
+.board #finish {
+    position: absolute;
+    top: -40%;
+    left: 50px;
+    text-align: center;
+    display: none;
+    width: 200px;
+    padding: 20px 50px;
+    background: #fff;
+    box-shadow: 4px 4px 4px #ccc;
+    border-radius: 10px;
+}
+
+.board:hover #finish {
+    -webkit-animation: animation99 5s 30s linear;
+    animation: animation99 5s 30s linear;
+    animation-fill-mode: forwards;
+    display: block;
+}
+
+
+.timer{
+  background-color:#333; width:200px;height:30px;
+  position:absolute;
+  left: 400px;
+    top: 0px;     /*position of timer*/
+}
+
+
+.timer span{
+  display:block;
+  background:linear-gradient(green,yellow);
+  width:200px; height:30px;
+  animation:timer 20s linear;
+}
+
+.timer span:before{  
+  content:"TIMER";
+  display:block;
+  position:absolute; z-index:3;
+  left:0; 
+  right:0;
+  top:0;
+  bottom:0;
+  text-align:center;
+  line-height:30px;   /*position of letters within timer*/
+  font-size:15px;
+  color:red;
+}
+
+@keyframes timer{
+0%{width:10px;}
+100%{width:200px;display:block;}
+}
+
+@-webkit-keyframes timer{
+0%{width:10px;}
+100%{width:200px; display:block;}
+}
+
+.time{
+  position:fixed; z-index:100000; left:0; top:0; bottom:0; right:0; background-color:rgba(0,0,0,0.8);
+  animation:time 20s;
+  font-size:50px; color:white; font-weight:bold; text-align:center; 
+  text-indent:0;  
+  line-height:500px;
+}
+
+@-webkit-keyframes time{
+0%{left:-5000px;bottom:100%;}
+97%{left:-5000px;bottom:100%;}
+100%{ left:0px;}
+}
+
+@keyframes time{
+0%{left:-5000px;bottom:100%;}
+97%{left:-5000px;bottom:100%;}
+100%{ left:0px;}
+}
+
+
+
