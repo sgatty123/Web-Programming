@@ -407,26 +407,6 @@
     }
 }
 
-.board #finish {
-    position: absolute;
-    top: -40%;
-    left: 50px;
-    text-align: center;
-    display: none;
-    width: 200px;
-    padding: 20px 50px;
-    background: #fff;
-    box-shadow: 4px 4px 4px #ccc;
-    border-radius: 10px;
-}
-
-.board:hover #finish {
-    -webkit-animation: animation99 5s 30s linear;
-    animation: animation99 5s 30s linear;
-    animation-fill-mode: forwards;
-    display: block;
-}
-
 
 .timer{
   background-color:#333; width:200px;height:30px;

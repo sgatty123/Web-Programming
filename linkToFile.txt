@@ -1,6 +1,17 @@
+Project 1
 
-Assignment 1
 
-Link to file :
-
+Student Profile: 
 http://codd.cs.gsu.edu/~sgatty1/index.html
+————————————————————————————————————
+
+PROJECT 1 - Direct Link: 
+
+http://codd.cs.gsu.edu/~sgatty1/project_1/angeldemon.html
+
+
+———————————————————————————————————————
+
+link to GitHub repo:
+
+https://github.com/sgatty123/Web-Programming
