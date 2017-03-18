@@ -1,16 +1,11 @@
-Project 1
+Project 2
 
+__________________________________________________________
 
-Student Profile: 
-http://codd.cs.gsu.edu/~sgatty1/index.html
-————————————————————————————————————
+Project 2(chocolate time)  :  http://codd.cs.gsu.edu/~sgatty1/project2/
+          
 
-PROJECT 1 - Direct Link: 
-
-http://codd.cs.gsu.edu/~sgatty1/project_1/angeldemon.html
-
-
-———————————————————————————————————————
+————————————————————————————————————————————————————————————
 
 link to GitHub repo:
 
