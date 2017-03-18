@@ -1,0 +1,115 @@
+html
+{ 
+  height: 100%;
+  background-image:url(toffee.jpg);
+   opacity: 0.75;
+  background-attachment: fixed;  
+}
+
+h2 {text-align: center;}
+
+
+
+h1,h3
+{ color: #A4A400;
+  background: #F0F0F0;
+  font-family:Century Gothic, Futura, Verdana;
+  text-align: center;
+}
+
+h2
+{
+ text-align: center;
+}
+
+p{
+background-color: #FFFFCC;
+margin-left: 80px;
+margin-right:80px;
+text-align:center;
+font-size:;
+}
+
+p.wong{
+background-color: #FFFFCC;
+margin-left: 80px;
+margin-right:80px;
+text-align:center;
+color:red;
+font-size:;
+}
+
+span.bold
+{
+ font-weight:bold;
+}
+
+span.quote
+{
+ font-weight:bold;
+ font-style:italic;
+ text-align:center;
+}
+
+figure
+{
+	text-align:center;
+}
+
+a, a:hover
+{ outline: none;
+  text-decoration: underline;
+  color: #A4A400;
+  }
+  
+  a:hover
+{ text-decoration: none;
+background-color: #43423F;}
+
+a.home{
+  font-weight:bold;
+ font-style:italic;
+ color: red;
+
+}
+  
+img
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+table 
+{
+	display: block;
+  margin-left: 450px;
+  margin-right: 705px;
+  border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+
+
+div.div1 
+{
+    border: 1px solid black;
+}
+
+div.div2
+ {
+margin-left:200px;
+margin-right:200px;    
+    
+}
+
+table.score
+{
+display: block;
+margin-left: 400px;
+margin-right: 705px;
+}
